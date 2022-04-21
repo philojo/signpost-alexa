@@ -4,9 +4,8 @@
  */
 
 const router = require('express').Router();
-const { setupRequest, processResponse, handle404, handleError } = require('../middlewares/index');
 
-/** Models Route Handlers */
+const { setupRequest, processResponse, handle404, handleError } = require('../middlewares/index');
 const jsonRouteHandler = require('./json');
 
 /** Cross Origin Handling */
