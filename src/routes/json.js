@@ -2,9 +2,6 @@
  * This handles the Json routes declaration in the application
  * @module ROUTES:Json
  */
-
-const fs = require('fs');
-
 const router = require('express').Router();
 
 const JsonService = require('../services/json');
