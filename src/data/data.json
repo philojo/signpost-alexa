@@ -1,22 +1,18 @@
 {
     "review_site_ratings": [
         {
-            "id" : 4118604,
-            "location_id" : 6664411,
+            "name": "Metacritic",
             "review_site_id" : 2,
             "reported_at" : "2022-04-20 00:00:00",
-            "review_site_url" : "https:\/\/search.google.com\/local\/reviews?placeid=ChIJ-6K_Jf1bwokR5W-fW_UEsqw",
             "rating" : 4.60,
             "review_count" : 300,
             "created_at" : "2022-04-20 15:09:51",
             "updated_at" : "2022-04-20 15:09:51"
         },
         {
-            "id" : 4118603,
-            "location_id" : 6664410,
+            "name": "IGN",
             "review_site_id" : 2,
             "reported_at" : "2022-04-20 00:00:00",
-            "review_site_url" : "https:\/\/search.google.com\/local\/reviews?placeid=ChIJufCce7XZ54kRql2kNVnDkFc",
             "rating" : 4.70,
             "review_count" : 49,
             "created_at" : "2022-04-20 15:08:54",
