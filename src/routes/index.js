@@ -5,7 +5,7 @@
 
 const router = require('express').Router();
 
-const { setupRequest, processResponse, handle404, handleError } = require('../middlewares/index');
+const { setupRequest, processResponse, handleError } = require('../middlewares/index');
 const jsonRouteHandler = require('./json');
 
 /** Cross Origin Handling */
@@ -15,7 +15,6 @@ router.get('/', (request, response, next) => {
 });
 router.use('/json', jsonRouteHandler);
 router.use(processResponse);
-router.use(handle404);
 router.use(handleError);
 
 module.exports = router;

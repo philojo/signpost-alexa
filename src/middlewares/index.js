@@ -39,23 +39,6 @@ function processResponse(request, response, next) {
 
 /**
  *
- * This middleware receives, processes and sends to handleError all Services 404 Errors.
- * @param {object} request Express request object. Unused in this function.
- * @param {object} response Express response object. Unused in this function.
- * @param {object} next Express next function
- */
-function handle404(request, response, next) {
-    const returnData = {
-        status: 404,
-        error: 'Resource not found',
-        payload: null,
-    };
-
-    next(returnData);
-}
-
-/**
- *
  * This middleware processes, and returns all failed responses to the Client.
  * @param {Error} error Error being returned to the front-end from the Error constructor.
  * @param {object} request Express request object. Unused in this function.
@@ -64,15 +47,20 @@ function handle404(request, response, next) {
  * @returns {object} Express response object, formatted using the error param.
  */
 function handleError(error, request, response, next) {
-    return response.status(error.status || 500).json({
-        status: error.status || 500,
+    if (error.error.error == 'No record found') {
+        error.status = 404;
+    } else {
+        error.status = 500;
+    }
+
+    return response.status(error.status).json({
+        status: error.status,
         error: error.error || 'Internal Server Error',
         payload: null,
     });
 }
 
 module.exports = {
-    handle404,
     handleError,
     processResponse,
     setupRequest,
