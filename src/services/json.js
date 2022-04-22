@@ -37,11 +37,11 @@ class JsonService {
      */
     async readRecords({ request, next }) {
         try {
-            const { key, item } = request.query;
+            const { key } = request.query;
 
             const rawData = fs.readFileSync(path.resolve(__dirname, '../data/data.json'));
             const availableData = JSON.parse(rawData);
-            const result = availableData[key][item - 1];
+            const result = availableData[key][Math.floor(Math.random() * 50) + 1];
 
             if (!result) throw new Error('No record found');
 
