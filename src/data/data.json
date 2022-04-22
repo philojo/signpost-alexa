@@ -2,7 +2,7 @@
     "review_site_ratings": [
         {
             "name": "Metacritic",
-            "review_site_id" : 2,
+            "review_site_name" : "Metacritic: Vandam Yoga",
             "reported_at" : "2022-04-20 00:00:00",
             "rating" : 4.60,
             "review_count" : 300,
@@ -11,7 +11,7 @@
         },
         {
             "name": "IGN",
-            "review_site_id" : 2,
+            "review_site_name" : "IDN Place",
             "reported_at" : "2022-04-20 00:00:00",
             "rating" : 4.70,
             "review_count" : 49,
