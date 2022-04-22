@@ -1,22 +1,453 @@
 {
-    "review_site_ratings": [
-        {
-            "name": "Metacritic",
-            "review_site_name" : "Metacritic: Vandam Yoga",
-            "reported_at" : "2022-04-20 00:00:00",
-            "rating" : 4.60,
-            "review_count" : 300,
-            "created_at" : "2022-04-20 15:09:51",
-            "updated_at" : "2022-04-20 15:09:51"
-        },
-        {
-            "name": "IGN",
-            "review_site_name" : "IDN Place",
-            "reported_at" : "2022-04-20 00:00:00",
-            "rating" : 4.70,
-            "review_count" : 49,
-            "created_at" : "2022-04-20 15:08:54",
-            "updated_at" : "2022-04-20 15:08:54"
-        }
-    ]
-}
+"review_site_ratings": [
+	{
+		"name" : "Signs By Tomorrow - Santa Clarita",
+		"review_site_name" : "Yelp",
+		"reported_at" : "2017-10-10 23:18:20",
+		"rating" : 5.00,
+		"review_count" : 12,
+		"created_at" : "2017-10-10 23:18:20",
+		"updated_at" : "2017-10-10 23:18:20"
+	},
+	{
+		"name" : "Signs By Tomorrow - Santa Clarita",
+		"review_site_name" : "Google+",
+		"reported_at" : "2017-10-10 23:18:20",
+		"rating" : 5.00,
+		"review_count" : 4,
+		"created_at" : "2017-10-10 23:18:20",
+		"updated_at" : "2017-10-10 23:18:20"
+	},
+	{
+		"name" : "Signs By Tomorrow - Santa Clarita",
+		"review_site_name" : "Facebook",
+		"reported_at" : "2017-10-10 23:18:20",
+		"rating" : 4.70,
+		"review_count" : 13,
+		"created_at" : "2017-10-10 23:18:20",
+		"updated_at" : "2017-10-10 23:18:20"
+	},
+	{
+		"name" : "Bugs & Beyond Pest & Wildlife Control",
+		"review_site_name" : "Yelp",
+		"reported_at" : "2017-10-10 23:50:35",
+		"rating" : 4.00,
+		"review_count" : 3,
+		"created_at" : "2017-10-10 23:50:35",
+		"updated_at" : "2017-10-10 23:50:35"
+	},
+	{
+		"name" : "AMS Appliance Repair",
+		"review_site_name" : "Yelp",
+		"reported_at" : "2017-10-11 00:33:16",
+		"rating" : 5.00,
+		"review_count" : 48,
+		"created_at" : "2017-10-11 00:33:16",
+		"updated_at" : "2017-10-11 00:33:16"
+	},
+	{
+		"name" : "AMS Appliance Repair",
+		"review_site_name" : "Facebook",
+		"reported_at" : "2017-10-11 00:33:16",
+		"rating" : 5.00,
+		"review_count" : 2,
+		"created_at" : "2017-10-11 00:33:16",
+		"updated_at" : "2017-10-11 00:33:16"
+	},
+	{
+		"name" : "Columbia Taekwondo",
+		"review_site_name" : "Google+",
+		"reported_at" : "2017-10-11 14:21:42",
+		"rating" : 5.00,
+		"review_count" : 3,
+		"created_at" : "2017-10-11 14:21:42",
+		"updated_at" : "2017-10-11 14:21:42"
+	},
+	{
+		"name" : "Columbia Taekwondo",
+		"review_site_name" : "Facebook",
+		"reported_at" : "2017-10-11 14:21:42",
+		"rating" : 5.00,
+		"review_count" : 41,
+		"created_at" : "2017-10-11 14:21:42",
+		"updated_at" : "2017-10-11 14:21:42"
+	},
+	{
+		"name" : "Columbia Taekwondo",
+		"review_site_name" : "Google+",
+		"reported_at" : "2017-10-11 14:29:45",
+		"rating" : 5.00,
+		"review_count" : 3,
+		"created_at" : "2017-10-11 14:29:45",
+		"updated_at" : "2017-10-11 14:29:45"
+	},
+	{
+		"name" : "Columbia Taekwondo",
+		"review_site_name" : "Facebook",
+		"reported_at" : "2017-10-11 14:29:45",
+		"rating" : 5.00,
+		"review_count" : 41,
+		"created_at" : "2017-10-11 14:29:45",
+		"updated_at" : "2017-10-11 14:29:45"
+	},
+	{
+		"name" : "Ultimate Mobile Wheel & Tire",
+		"review_site_name" : "Google+",
+		"reported_at" : "2017-10-11 14:58:45",
+		"rating" : 5.00,
+		"review_count" : 6,
+		"created_at" : "2017-10-11 14:58:45",
+		"updated_at" : "2017-10-11 14:58:45"
+	},
+	{
+		"name" : "Ultimate Mobile Wheel & Tire",
+		"review_site_name" : "Facebook",
+		"reported_at" : "2017-10-11 14:58:45",
+		"rating" : 5.00,
+		"review_count" : 1,
+		"created_at" : "2017-10-11 14:58:45",
+		"updated_at" : "2017-10-11 14:58:45"
+	},
+	{
+		"name" : "Umbra Window Tinting",
+		"review_site_name" : "Yelp",
+		"reported_at" : "2017-10-11 15:04:20",
+		"rating" : 5.00,
+		"review_count" : 126,
+		"created_at" : "2017-10-11 15:04:20",
+		"updated_at" : "2017-10-11 15:04:20"
+	},
+	{
+		"name" : "Umbra Window Tinting",
+		"review_site_name" : "Facebook",
+		"reported_at" : "2017-10-11 15:04:20",
+		"rating" : 4.90,
+		"review_count" : 58,
+		"created_at" : "2017-10-11 15:04:20",
+		"updated_at" : "2017-10-11 15:04:20"
+	},
+	{
+		"name" : "Umbra Window Tinting",
+		"review_site_name" : "Google+",
+		"reported_at" : "2017-10-11 15:04:20",
+		"rating" : 5.00,
+		"review_count" : 121,
+		"created_at" : "2017-10-11 15:04:20",
+		"updated_at" : "2017-10-11 15:04:20"
+	},
+	{
+		"name" : "Chlorophyll",
+		"review_site_name" : "Yelp",
+		"reported_at" : "2017-10-11 15:20:33",
+		"rating" : 5.00,
+		"review_count" : 6,
+		"created_at" : "2017-10-11 15:20:33",
+		"updated_at" : "2017-10-11 15:20:33"
+	},
+	{
+		"name" : "Chlorophyll",
+		"review_site_name" : "Google+",
+		"reported_at" : "2017-10-11 15:20:33",
+		"rating" : 4.80,
+		"review_count" : 27,
+		"created_at" : "2017-10-11 15:20:33",
+		"updated_at" : "2017-10-11 15:20:33"
+	},
+	{
+		"name" : "Compu-Tech Inc",
+		"review_site_name" : "Google+",
+		"reported_at" : "2017-10-11 15:35:44",
+		"rating" : 4.10,
+		"review_count" : 10,
+		"created_at" : "2017-10-11 15:35:44",
+		"updated_at" : "2017-10-11 15:35:44"
+	},
+	{
+		"name" : "Compu-Tech Inc",
+		"review_site_name" : "Yelp",
+		"reported_at" : "2017-10-11 15:35:44",
+		"rating" : 3.50,
+		"review_count" : 3,
+		"created_at" : "2017-10-11 15:35:44",
+		"updated_at" : "2017-10-11 15:35:44"
+	},
+	{
+		"name" : "Dazzling Eye",
+		"review_site_name" : "Yelp",
+		"reported_at" : "2017-10-11 16:42:13",
+		"rating" : 4.50,
+		"review_count" : 33,
+		"created_at" : "2017-10-11 16:42:13",
+		"updated_at" : "2017-10-11 16:42:13"
+	},
+	{
+		"name" : "Dazzling Eye",
+		"review_site_name" : "Yelp",
+		"reported_at" : "2017-10-11 16:54:36",
+		"rating" : 4.50,
+		"review_count" : 33,
+		"created_at" : "2017-10-11 16:54:36",
+		"updated_at" : "2017-10-11 16:54:36"
+	},
+	{
+		"name" : "Gold Medal Physical Therapy - Nottingham",
+		"review_site_name" : "Google+",
+		"reported_at" : "2017-10-11 17:04:20",
+		"rating" : 5.00,
+		"review_count" : 17,
+		"created_at" : "2017-10-11 17:04:20",
+		"updated_at" : "2017-10-11 17:04:20"
+	},
+	{
+		"name" : "Gold Medal Physical Therapy - Nottingham",
+		"review_site_name" : "Yelp",
+		"reported_at" : "2017-10-11 17:04:20",
+		"rating" : 5.00,
+		"review_count" : 1,
+		"created_at" : "2017-10-11 17:04:20",
+		"updated_at" : "2017-10-11 17:04:20"
+	},
+	{
+		"name" : "Premier Rental-Purchase Lindenhurst",
+		"review_site_name" : "Google+",
+		"reported_at" : "2017-10-11 17:13:04",
+		"rating" : 4.20,
+		"review_count" : 6,
+		"created_at" : "2017-10-11 17:13:04",
+		"updated_at" : "2017-10-11 17:13:04"
+	},
+	{
+		"name" : "Premier Rental-Purchase Lindenhurst",
+		"review_site_name" : "Facebook",
+		"reported_at" : "2017-10-11 17:13:04",
+		"rating" : 4.70,
+		"review_count" : 14,
+		"created_at" : "2017-10-11 17:13:04",
+		"updated_at" : "2017-10-11 17:13:04"
+	},
+	{
+		"name" : "Sculpt Tulsa",
+		"review_site_name" : "Yelp",
+		"reported_at" : "2017-10-11 17:27:29",
+		"rating" : 5.00,
+		"review_count" : 3,
+		"created_at" : "2017-10-11 17:27:29",
+		"updated_at" : "2017-10-11 17:27:29"
+	},
+	{
+		"name" : "Sculpt Tulsa",
+		"review_site_name" : "Google+",
+		"reported_at" : "2017-10-11 17:27:29",
+		"rating" : 5.00,
+		"review_count" : 6,
+		"created_at" : "2017-10-11 17:27:29",
+		"updated_at" : "2017-10-11 17:27:29"
+	},
+	{
+		"name" : "Sculpt Tulsa",
+		"review_site_name" : "Facebook",
+		"reported_at" : "2017-10-11 17:27:29",
+		"rating" : 5.00,
+		"review_count" : 17,
+		"created_at" : "2017-10-11 17:27:29",
+		"updated_at" : "2017-10-11 17:27:29"
+	},
+	{
+		"name" : "Painting with a Twist - Stuart",
+		"review_site_name" : "Yelp",
+		"reported_at" : "2017-10-11 17:56:10",
+		"rating" : 5.00,
+		"review_count" : 4,
+		"created_at" : "2017-10-11 17:56:10",
+		"updated_at" : "2017-10-11 17:56:10"
+	},
+	{
+		"name" : "Painting with a Twist - Stuart",
+		"review_site_name" : "Facebook",
+		"reported_at" : "2017-10-11 17:56:10",
+		"rating" : 5.00,
+		"review_count" : 252,
+		"created_at" : "2017-10-11 17:56:10",
+		"updated_at" : "2017-10-11 17:56:10"
+	},
+	{
+		"name" : "Painting with a Twist - Stuart",
+		"review_site_name" : "Google+",
+		"reported_at" : "2017-10-11 17:56:10",
+		"rating" : 5.00,
+		"review_count" : 37,
+		"created_at" : "2017-10-11 17:56:10",
+		"updated_at" : "2017-10-11 17:56:10"
+	},
+	{
+		"name" : "Sparkle Plenty Professional Cleaners",
+		"review_site_name" : "Google+",
+		"reported_at" : "2017-10-11 17:57:40",
+		"rating" : 5.00,
+		"review_count" : 1,
+		"created_at" : "2017-10-11 17:57:40",
+		"updated_at" : "2017-10-11 17:57:40"
+	},
+	{
+		"name" : "Sparkle Plenty Professional Cleaners",
+		"review_site_name" : "Facebook",
+		"reported_at" : "2017-10-11 17:57:40",
+		"rating" : 5.00,
+		"review_count" : 9,
+		"created_at" : "2017-10-11 17:57:40",
+		"updated_at" : "2017-10-11 17:57:40"
+	},
+	{
+		"name" : "Sparkle Plenty Professional Cleaners",
+		"review_site_name" : "Google+",
+		"reported_at" : "2017-10-11 17:59:03",
+		"rating" : 5.00,
+		"review_count" : 1,
+		"created_at" : "2017-10-11 17:59:03",
+		"updated_at" : "2017-10-11 17:59:03"
+	},
+	{
+		"name" : "Sparkle Plenty Professional Cleaners",
+		"review_site_name" : "Facebook",
+		"reported_at" : "2017-10-11 17:59:03",
+		"rating" : 5.00,
+		"review_count" : 9,
+		"created_at" : "2017-10-11 17:59:03",
+		"updated_at" : "2017-10-11 17:59:03"
+	},
+	{
+		"name" : "Resolve Counseling & Wellness",
+		"review_site_name" : "Facebook",
+		"reported_at" : "2017-10-11 18:32:36",
+		"rating" : 5.00,
+		"review_count" : 3,
+		"created_at" : "2017-10-11 18:32:36",
+		"updated_at" : "2017-10-11 18:32:36"
+	},
+	{
+		"name" : "The Grounds Guys of Piedmont",
+		"review_site_name" : "Yelp",
+		"reported_at" : "2017-10-11 18:37:28",
+		"rating" : 5.00,
+		"review_count" : 3,
+		"created_at" : "2017-10-11 18:37:28",
+		"updated_at" : "2017-10-11 18:37:28"
+	},
+	{
+		"name" : "The Grounds Guys of Piedmont",
+		"review_site_name" : "Facebook",
+		"reported_at" : "2017-10-11 18:37:28",
+		"rating" : 5.00,
+		"review_count" : 3,
+		"created_at" : "2017-10-11 18:37:28",
+		"updated_at" : "2017-10-11 18:37:28"
+	},
+	{
+		"name" : "Miss Print",
+		"review_site_name" : "Yelp",
+		"reported_at" : "2017-10-11 18:44:31",
+		"rating" : 3.50,
+		"review_count" : 3,
+		"created_at" : "2017-10-11 18:44:31",
+		"updated_at" : "2017-10-11 18:44:31"
+	},
+	{
+		"name" : "Miss Print",
+		"review_site_name" : "Google+",
+		"reported_at" : "2017-10-11 18:44:31",
+		"rating" : 4.30,
+		"review_count" : 6,
+		"created_at" : "2017-10-11 18:44:31",
+		"updated_at" : "2017-10-11 18:44:31"
+	},
+	{
+		"name" : "Miss Print",
+		"review_site_name" : "Facebook",
+		"reported_at" : "2017-10-11 18:44:31",
+		"rating" : 4.80,
+		"review_count" : 22,
+		"created_at" : "2017-10-11 18:44:31",
+		"updated_at" : "2017-10-11 18:44:31"
+	},
+	{
+		"name" : "Clear Sinus",
+		"review_site_name" : "Yelp",
+		"reported_at" : "2017-10-11 19:28:11",
+		"rating" : 3.00,
+		"review_count" : 2,
+		"created_at" : "2017-10-11 19:28:11",
+		"updated_at" : "2017-10-11 19:28:11"
+	},
+	{
+		"name" : "Kelly Clark Automotive Specialists",
+		"review_site_name" : "Yelp",
+		"reported_at" : "2017-10-11 19:38:34",
+		"rating" : 4.00,
+		"review_count" : 26,
+		"created_at" : "2017-10-11 19:38:34",
+		"updated_at" : "2017-10-11 19:38:34"
+	},
+	{
+		"name" : "Kelly Clark Automotive Specialists",
+		"review_site_name" : "Google+",
+		"reported_at" : "2017-10-11 19:38:34",
+		"rating" : 3.90,
+		"review_count" : 25,
+		"created_at" : "2017-10-11 19:38:34",
+		"updated_at" : "2017-10-11 19:38:34"
+	},
+	{
+		"name" : "Kelly Clark Automotive Specialists",
+		"review_site_name" : "Facebook",
+		"reported_at" : "2017-10-11 19:38:34",
+		"rating" : 4.00,
+		"review_count" : 1,
+		"created_at" : "2017-10-11 19:38:34",
+		"updated_at" : "2017-10-11 19:38:34"
+	},
+	{
+		"name" : "Gymboree Play & Music - Memorial",
+		"review_site_name" : "Google+",
+		"reported_at" : "2017-10-11 19:46:34",
+		"rating" : 3.70,
+		"review_count" : 6,
+		"created_at" : "2017-10-11 19:46:34",
+		"updated_at" : "2017-10-11 19:46:34"
+	},
+	{
+		"name" : "Gymboree Play & Music - Memorial",
+		"review_site_name" : "Yelp",
+		"reported_at" : "2017-10-11 19:46:34",
+		"rating" : 4.00,
+		"review_count" : 19,
+		"created_at" : "2017-10-11 19:46:34",
+		"updated_at" : "2017-10-11 19:46:34"
+	},
+	{
+		"name" : "The UPS Store 6076 - Spanish Fort",
+		"review_site_name" : "Yelp",
+		"reported_at" : "2017-10-11 20:00:26",
+		"rating" : 5.00,
+		"review_count" : 6,
+		"created_at" : "2017-10-11 20:00:26",
+		"updated_at" : "2017-10-11 20:00:26"
+	},
+	{
+		"name" : "The UPS Store 6076 - Spanish Fort",
+		"review_site_name" : "Google+",
+		"reported_at" : "2017-10-11 20:00:26",
+		"rating" : 4.90,
+		"review_count" : 20,
+		"created_at" : "2017-10-11 20:00:26",
+		"updated_at" : "2017-10-11 20:00:26"
+	},
+	{
+		"name" : "The UPS Store 6076 - Spanish Fort",
+		"review_site_name" : "Facebook",
+		"reported_at" : "2017-10-11 20:00:26",
+		"rating" : 5.00,
+		"review_count" : 2,
+		"created_at" : "2017-10-11 20:00:26",
+		"updated_at" : "2017-10-11 20:00:26"
+	}
+]}
